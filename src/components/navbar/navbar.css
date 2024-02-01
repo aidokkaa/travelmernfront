@@ -1,0 +1,27 @@
+.navbar{
+    height: 50px;
+    background: url('https://avatars.mds.yandex.net/get-altay/1971563/2a0000016b0dd97b259a87c9e1c1539c1f9b/L_height');
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navContainer{
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo{
+    font-weight: 500;
+  }
+  
+  .navButton{
+    margin-left: 20px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #003580;
+  }
