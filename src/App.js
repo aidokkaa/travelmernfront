@@ -10,7 +10,7 @@ import Reserve from './components/reserve/Reserve';
 
 const router = createBrowserRouter(createRoutesFromElements(<Route path ="/" element = {<RouteLayout/>}>
   <Route index  element = {<Home/>}/>
-  <Route path="/hotels" element = {<List/>}/>
+  {/* <Route path="/hotels" element = {<List/>}/> */}
   <Route path="/hotels/:id" element = {<Hotel/>}/>
   <Route path="/login" element={<Login/>}/>
   <Route path="/reserve" element={<Reserve/>}/>
