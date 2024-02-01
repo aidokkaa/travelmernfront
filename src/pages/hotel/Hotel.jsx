@@ -30,7 +30,7 @@ export const Hotel = () => {
   const [slideNumber,setSlideNumber]=React.useState(0);
   const [open,setOpen]=React.useState(false);
   const [openModal, setOpenModal] = useState(false);
-  const { data, loading, error } = useFetch(`/hotels/find/${id}`);
+  const { data, loading, error } = useFetch(`${process.env.REACT_APP_API_URL}/api/hotels/find/${id}`);
   const { user } = useContext(AuthContext);
   const navigate = useNavigate();
   const {dates,options} = useContext(SearchContext);
