@@ -9,7 +9,7 @@ export const PropertyList = () => {
     margin: "0 auto",
     borderColor: "green",
   };
-  const { data, loading, error } = useFetch("/hotels/countByType");
+  const { data, loading, error } = useFetch(`${process.env.REACT_APP_API_URL}/hotels/countByType`);
   const images = [
     "https://welcome.kz/ru/assets/images/products/0_gallery/guidebook/traditions/national_game_bajga.jpg",
     "https://st.depositphotos.com/1169330/4138/i/450/depositphotos_41389437-stock-photo-dairy-products.jpg",
